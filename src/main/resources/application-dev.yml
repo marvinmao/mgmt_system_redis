@@ -78,7 +78,7 @@ spring:
 mybatis:
   config-location: classpath:/mybatis-config.xml
   mapper-locations: classpath:/mappings/**/*.xml
-  type-aliases-package: com.xuebusi.cms
+  type-aliases-package: com.llnqdx.cms
 #admin页面管理Path
 adminPath: /admin
 #分页配置

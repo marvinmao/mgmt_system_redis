@@ -163,7 +163,7 @@
 </form>
 <div class="footer">
     Copyright &copy; 2018-2030 <a href="${pageContext.request.contextPath}">${fns:getConfig('productName')}</a> -
-    <%--Powered By <a href="http://xuebusi.com" target="_blank">xuebusi</a> --%>
+    <%--Powered By <a href="http://xuebusi.com" target="_blank">llnqdx</a> --%>
     ${fns:getConfig('version')}
 </div>
 <script src="${ctxStatic}/flash/zoom.min.js" type="text/javascript"></script>

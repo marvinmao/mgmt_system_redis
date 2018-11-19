@@ -68,7 +68,7 @@
         </filter>
     </appender>
 
-    <logger name="com.xuebusi" level="INFO">
+    <logger name="com.llnqdx" level="INFO">
         <appender-ref ref="infoDailyRollingFile"/>
         <appender-ref ref="severeDailyRollingFile"/>
     </logger>

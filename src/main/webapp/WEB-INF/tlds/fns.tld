@@ -13,21 +13,21 @@
   <function>
     <description>获取计时器时间串</description>
     <name>getTimeStrBySecond</name>
-    <function-class>com.xuebusi.cms.common.utils.DateUtils</function-class>
+    <function-class>com.llnqdx.cms.common.utils.DateUtils</function-class>
     <function-signature>java.lang.String getTimeStrBySecond(long)</function-signature>
     <example>${fns:getTimeStrBySecond(second)}</example>
   </function>
   <function>
     <description>获取管理路径</description>
     <name>getAdminPath</name>
-    <function-class>com.xuebusi.cms.common.config.Global</function-class>
+    <function-class>com.llnqdx.cms.common.config.Global</function-class>
     <function-signature>java.lang.String getAdminPath()</function-signature>
     <example>${fns:getAdminPath()}</example>
   </function>
   <function>
     <description>获取配置</description>
     <name>getConfig</name>
-    <function-class>com.xuebusi.cms.common.config.Global</function-class>
+    <function-class>com.llnqdx.cms.common.config.Global</function-class>
     <function-signature>java.lang.String getConfig(java.lang.String)</function-signature>
     <example>${fns:getConfig(key)}</example>
   </function>
@@ -35,7 +35,7 @@
   <function>
     <description>获取当前用户对象</description>
     <name>getUser</name>
-    <function-class>com.xuebusi.cms.base.modules.sys.utils.UserUtils</function-class>
+    <function-class>com.llnqdx.cms.base.modules.sys.utils.UserUtils</function-class>
     <function-signature>com.xuebusi.cms.base.modules.sys.entity.User getUser()</function-signature>
     <example>${fns:getUser()}</example>  
   </function>
@@ -43,7 +43,7 @@
   <function>
     <description>根据编码获取用户对象</description>
     <name>getUserById</name>
-    <function-class>com.xuebusi.cms.base.modules.sys.utils.UserUtils</function-class>
+    <function-class>com.llnqdx.cms.base.modules.sys.utils.UserUtils</function-class>
     <function-signature>com.xuebusi.cms.base.modules.sys.entity.User get(java.lang.String)</function-signature>
     <example>${fns:getUserById(id)}</example>  
   </function>
@@ -51,7 +51,7 @@
   <function>
     <description>获取授权用户信息</description>
     <name>getPrincipal</name>
-    <function-class>com.xuebusi.cms.base.modules.sys.utils.UserUtils</function-class>
+    <function-class>com.llnqdx.cms.base.modules.sys.utils.UserUtils</function-class>
     <function-signature>com.xuebusi.cms.base.modules.sys.security.SystemAuthorizingRealm.Principal getPrincipal()</function-signature>
     <example>${fns:getPrincipal()}</example>  
   </function>
@@ -59,7 +59,7 @@
   <function>
     <description>获取当前用户的菜单对象列表</description>
     <name>getMenuList</name>
-    <function-class>com.xuebusi.cms.base.modules.sys.utils.UserUtils</function-class>
+    <function-class>com.llnqdx.cms.base.modules.sys.utils.UserUtils</function-class>
     <function-signature>java.util.List getMenuList()</function-signature>
     <example>${fns:getMenuList()}</example>  
   </function>
@@ -67,7 +67,7 @@
   <function>
     <description>获取当前用户的区域对象列表</description>
     <name>getAreaList</name>
-    <function-class>com.xuebusi.cms.base.modules.sys.utils.UserUtils</function-class>
+    <function-class>com.llnqdx.cms.base.modules.sys.utils.UserUtils</function-class>
     <function-signature>java.util.List getAreaList()</function-signature>
     <example>${fns:getAreaList()}</example>  
   </function>
@@ -75,7 +75,7 @@
   <function>
     <description>获取当前用户的部门对象列表</description>
     <name>getOfficeList</name>
-    <function-class>com.xuebusi.cms.base.modules.sys.utils.UserUtils</function-class>
+    <function-class>com.llnqdx.cms.base.modules.sys.utils.UserUtils</function-class>
     <function-signature>java.util.List getOfficeList()</function-signature>
     <example>${fns:getOfficeList()}</example>  
   </function>
@@ -83,7 +83,7 @@
   <function>
     <description>获取当前用户缓存</description>
     <name>getCache</name>
-    <function-class>com.xuebusi.cms.base.modules.sys.utils.UserUtils</function-class>
+    <function-class>com.llnqdx.cms.base.modules.sys.utils.UserUtils</function-class>
     <function-signature>java.lang.Object getCache(java.lang.String, java.lang.Object)</function-signature>
     <example>${fns:getCache(cacheName, defaultValue)}</example>  
   </function>
@@ -92,7 +92,7 @@
   <function>
     <description>获取字典标签</description>
     <name>getDictLabel</name>
-    <function-class>com.xuebusi.cms.base.modules.sys.utils.DictUtils</function-class>
+    <function-class>com.llnqdx.cms.base.modules.sys.utils.DictUtils</function-class>
     <function-signature>java.lang.String getDictLabel(java.lang.String, java.lang.String, java.lang.String)</function-signature>
     <example>${fns:getDictLabel(value, type, defaultValue)}</example>  
   </function>
@@ -100,7 +100,7 @@
   <function>
     <description>获取字典标签(多个)</description>
     <name>getDictLabels</name>
-    <function-class>com.xuebusi.cms.base.modules.sys.utils.DictUtils</function-class>
+    <function-class>com.llnqdx.cms.base.modules.sys.utils.DictUtils</function-class>
     <function-signature>java.lang.String getDictLabels(java.lang.String, java.lang.String, java.lang.String)</function-signature>
     <example>${fns:getDictLabels(values, type, defaultValue)}</example>  
   </function>
@@ -108,7 +108,7 @@
   <function>
     <description>获取字典值</description>
     <name>getDictValue</name>
-    <function-class>com.xuebusi.cms.base.modules.sys.utils.DictUtils</function-class>
+    <function-class>com.llnqdx.cms.base.modules.sys.utils.DictUtils</function-class>
     <function-signature>java.lang.String getDictValue(java.lang.String, java.lang.String, java.lang.String)</function-signature>
     <example>${fns:getDictValue(label, type, defaultValue)}</example>  
   </function>
@@ -116,7 +116,7 @@
   <function>
     <description>获取字典对象列表</description>
     <name>getDictList</name>
-    <function-class>com.xuebusi.cms.base.modules.sys.utils.DictUtils</function-class>
+    <function-class>com.llnqdx.cms.base.modules.sys.utils.DictUtils</function-class>
     <function-signature>java.util.List getDictList(java.lang.String)</function-signature>
     <example>${fns:getDictList(type)}</example>  
   </function>
@@ -124,7 +124,7 @@
   <function>
     <description>获取字典对象列表</description>
     <name>getDictListJson</name>
-    <function-class>com.xuebusi.cms.base.modules.sys.utils.DictUtils</function-class>
+    <function-class>com.llnqdx.cms.base.modules.sys.utils.DictUtils</function-class>
     <function-signature>java.lang.String getDictListJson(java.lang.String)</function-signature>
     <example>${fns:getDictListJson(type)}</example>  
   </function>
@@ -133,28 +133,28 @@
   <function>
     <description>URL编码</description>
     <name>urlEncode</name>
-    <function-class>com.xuebusi.cms.common.utils.Encodes</function-class>
+    <function-class>com.llnqdx.cms.common.utils.Encodes</function-class>
     <function-signature>java.lang.String urlEncode(java.lang.String)</function-signature>
     <example>${fns:urlEncode(part)}</example>  
   </function>
   <function>
     <description>URL解码</description>
     <name>urlDecode</name>
-    <function-class>com.xuebusi.cms.common.utils.Encodes</function-class>
+    <function-class>com.llnqdx.cms.common.utils.Encodes</function-class>
     <function-signature>java.lang.String urlDecode(java.lang.String)</function-signature>
     <example>${fns:urlDecode(part)}</example>  
   </function>
   <function>
     <description>HTML编码</description>
     <name>escapeHtml</name>
-    <function-class>com.xuebusi.cms.common.utils.Encodes</function-class>
+    <function-class>com.llnqdx.cms.common.utils.Encodes</function-class>
     <function-signature>java.lang.String escapeHtml(java.lang.String)</function-signature>
     <example>${fns:escapeHtml(html)}</example>  
   </function>
   <function>
     <description>HTML解码</description>
     <name>unescapeHtml</name>
-    <function-class>com.xuebusi.cms.common.utils.Encodes</function-class>
+    <function-class>com.llnqdx.cms.common.utils.Encodes</function-class>
     <function-signature>java.lang.String unescapeHtml(java.lang.String)</function-signature>
     <example>${fns:unescapeHtml(html)}</example>  
   </function>
@@ -184,21 +184,21 @@
   <function>
     <description>缩写字符串，超过最大宽度用“...”表示</description>
     <name>abbr</name>
-    <function-class>com.xuebusi.cms.common.utils.StringUtils</function-class>
+    <function-class>com.llnqdx.cms.common.utils.StringUtils</function-class>
     <function-signature>java.lang.String abbr(java.lang.String, int)</function-signature>
     <example>${fns:abbr(str,length)}</example>  
   </function>
   <function>
     <description>替换掉HTML标签</description>
     <name>replaceHtml</name>
-    <function-class>com.xuebusi.cms.common.utils.StringUtils</function-class>
+    <function-class>com.llnqdx.cms.common.utils.StringUtils</function-class>
     <function-signature>java.lang.String replaceHtml(java.lang.String)</function-signature>
     <example>${fns:replaceHtml(html)}</example>  
   </function>
   <function>
     <description>转换为JS获取对象值，生成三目运算返回结果。</description>
     <name>jsGetVal</name>
-    <function-class>com.xuebusi.cms.common.utils.StringUtils</function-class>
+    <function-class>com.llnqdx.cms.common.utils.StringUtils</function-class>
     <function-signature>java.lang.String jsGetVal(java.lang.String)</function-signature>
     <example>${fns:jsGetVal('row.user.id')}  返回：!row?'':!row.user?'':!row.user.id?'':row.user.id</example>  
   </function>
@@ -207,14 +207,14 @@
   <function>
     <description>获取当前日期</description>
     <name>getDate</name>
-    <function-class>com.xuebusi.cms.common.utils.DateUtils</function-class>
+    <function-class>com.llnqdx.cms.common.utils.DateUtils</function-class>
     <function-signature>java.lang.String getDate(java.lang.String)</function-signature>
     <example>${fns:getDate(pattern)}</example>  
   </function>
   <function>
     <description>获取过去的天数</description>
     <name>pastDays</name>
-    <function-class>com.xuebusi.cms.common.utils.DateUtils</function-class>
+    <function-class>com.llnqdx.cms.common.utils.DateUtils</function-class>
     <function-signature>long pastDays(java.util.Date)</function-signature>
     <example>${fns:pastDays(date)}</example>  
   </function>
@@ -223,7 +223,7 @@
   <function>
     <description>对象转换JSON字符串</description>
     <name>toJson</name>
-    <function-class>com.xuebusi.cms.common.mapper.JsonMapper</function-class>
+    <function-class>com.llnqdx.cms.common.mapper.JsonMapper</function-class>
     <function-signature>java.lang.String toJsonString(java.lang.Object)</function-signature>
     <example>${fns:toJson(object)}</example>  
   </function>

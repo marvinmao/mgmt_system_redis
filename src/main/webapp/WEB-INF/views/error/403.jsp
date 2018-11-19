@@ -16,9 +16,9 @@ if (Servlets.isAjaxRequest(request)) {
 //输出异常信息页面
 else {
 %>
-<%@page import="com.xuebusi.cms.common.web.Servlets"%>
-<%@page import="com.xuebusi.cms.common.utils.Exceptions"%>
-<%@page import="com.xuebusi.cms.common.utils.StringUtils"%>
+<%@page import="com.llnqdx.cms.common.web.Servlets"%>
+<%@page import="com.llnqdx.cms.common.utils.Exceptions"%>
+<%@page import="com.llnqdx.cms.common.utils.StringUtils"%>
 <%@page contentType="text/html;charset=UTF-8" isErrorPage="true"%>
 <%@include file="/WEB-INF/views/include/taglib.jsp"%>
 <!DOCTYPE html>

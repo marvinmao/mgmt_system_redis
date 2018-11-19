@@ -41,12 +41,12 @@
 
     <!-- 类型别名 -->
     <typeAliases>
-        <typeAlias alias="Page" type="com.xuebusi.cms.common.persistence.Page"/><!--分页  -->
+        <typeAlias alias="Page" type="com.llnqdx.cms.common.persistence.Page"/><!--分页  -->
     </typeAliases>
 
     <!-- 插件配置 -->
     <plugins>
-        <plugin interceptor="com.xuebusi.cms.common.persistence.interceptor.PaginationInterceptor"/>
+        <plugin interceptor="com.llnqdx.cms.common.persistence.interceptor.PaginationInterceptor"/>
     </plugins>
 
 </configuration>
